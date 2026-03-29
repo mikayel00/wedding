@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0e4c8"/>
+      <stop offset="40%" stop-color="#c9a96e"/>
+      <stop offset="100%" stop-color="#8a6530"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.3)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0)"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3d2b10"/>
+      <stop offset="100%" stop-color="#1a0f00"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Gold background -->
+  <circle cx="256" cy="256" r="256" fill="url(#bg)"/>
+
+  <!-- Shine -->
+  <ellipse cx="256" cy="170" rx="210" ry="160" fill="url(#shine)" opacity="0.25"/>
+
+  <!-- Outer decorative ring -->
+  <circle cx="256" cy="256" r="240" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+  <!-- Inner decorative ring -->
+  <circle cx="256" cy="256" r="228" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="0.8"/>
+
+  <!-- Top flourish -->
+  <path d="M206 120 Q230 105 256 115 Q282 105 306 120" fill="none" stroke="rgba(255,255,255,0.45)" stroke-width="1.2" stroke-linecap="round"/>
+  <circle cx="256" cy="108" r="2.5" fill="rgba(255,255,255,0.5)"/>
+  <path d="M236 125 L256 115 L276 125" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="0.8" stroke-linecap="round"/>
+
+  <!-- Մ letter — elegant thin style -->
+  <text x="168" y="320" text-anchor="middle" font-size="220" font-weight="100" fill="url(#textGrad)" font-family="'Noto Serif Armenian', 'Cormorant Garamond', 'Noto Serif', serif" letter-spacing="2">Մ</text>
+
+  <!-- Decorative ampersand in script font -->
+  <text x="256" y="270" text-anchor="middle" font-size="52" fill="rgba(255,255,255,0.65)" font-family="'Great Vibes', 'Cormorant Garamond', cursive" font-weight="400">&amp;</text>
+
+  <!-- Ս letter — elegant thin style -->
+  <text x="344" y="320" text-anchor="middle" font-size="220" font-weight="100" fill="url(#textGrad)" font-family="'Noto Serif Armenian', 'Cormorant Garamond', 'Noto Serif', serif" letter-spacing="2">Ս</text>
+
+  <!-- Decorative line below initials -->
+  <line x1="160" y1="350" x2="352" y2="350" stroke="rgba(255,255,255,0.25)" stroke-width="0.8"/>
+  <circle cx="256" cy="350" r="3" fill="rgba(255,255,255,0.35)"/>
+  <line x1="200" y1="360" x2="312" y2="360" stroke="rgba(255,255,255,0.15)" stroke-width="0.6"/>
+
+  <!-- Bottom flourish -->
+  <path d="M206 392 Q230 407 256 397 Q282 407 306 392" fill="none" stroke="rgba(255,255,255,0.45)" stroke-width="1.2" stroke-linecap="round"/>
+  <circle cx="256" cy="404" r="2.5" fill="rgba(255,255,255,0.5)"/>
+
+  <!-- Corner diamonds -->
+  <text x="140" y="262" text-anchor="middle" font-size="14" fill="rgba(255,255,255,0.3)" font-family="serif">◆</text>
+  <text x="372" y="262" text-anchor="middle" font-size="14" fill="rgba(255,255,255,0.3)" font-family="serif">◆</text>
+</svg>
