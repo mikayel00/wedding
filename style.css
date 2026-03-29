@@ -357,6 +357,8 @@ footer p{font-family:var(--font-arm);font-size:12px;letter-spacing:3px;color:var
   .lang-switcher{top:12px;right:12px}
   .story-inner{grid-template-columns:24px 1fr 24px}
   .hero-frame{width:50px;height:50px}
+  .notes-grid{grid-template-columns:1fr;max-width:420px;margin-left:auto;margin-right:auto}
+  .notes-section{padding:70px 16px}
 }
 @media(max-width:480px){
   .gallery-grid{grid-template-columns:1fr;grid-template-rows:repeat(4,220px)}
@@ -370,7 +372,8 @@ footer p{font-family:var(--font-arm);font-size:12px;letter-spacing:3px;color:var
   .agenda-section{padding:60px 12px 70px}
   .countdown-unit{min-width:58px;padding:10px 12px 8px}
   .countdown-sep{font-size:24px}
-  .map-actions{flex-direction:column;align-items:flex-start}
+  .map-actions{flex-direction:column;align-items:stretch}
+  .map-actions .map-toggle-btn,.map-actions .card-nav-btn{text-align:center;justify-content:center}
   .story-inner{grid-template-columns:1fr}
   .story-deco-left,.story-deco-right{display:none}
   .hero-frame{display:none}
