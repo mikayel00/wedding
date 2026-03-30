@@ -1,17 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#f0e4c8"/>
-      <stop offset="40%" stop-color="#c9a96e"/>
-      <stop offset="100%" stop-color="#8a6530"/>
+      <stop offset="0%" stop-color="#f0c4be"/>
+      <stop offset="40%" stop-color="#dc988f"/>
+      <stop offset="100%" stop-color="#8a4a42"/>
     </linearGradient>
     <linearGradient id="shine" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="rgba(255,255,255,0.3)"/>
       <stop offset="100%" stop-color="rgba(255,255,255,0)"/>
     </linearGradient>
     <linearGradient id="textGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#3d2b10"/>
-      <stop offset="100%" stop-color="#1a0f00"/>
+      <stop offset="0%" stop-color="#3d1f1a"/>
+      <stop offset="100%" stop-color="#1a0800"/>
     </linearGradient>
   </defs>
 
